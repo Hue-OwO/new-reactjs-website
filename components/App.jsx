@@ -3,7 +3,7 @@ import usragent from 'hooks/useragent'
 
 export default function App() {
   
-  const {sBrowser} = usragent()
+  const {Usragent} = usragent()
 
   const mainStyle = {
     height: '100%',
@@ -68,7 +68,7 @@ export default function App() {
         <h2>Misc</h2>
       <div className='useragent'>
         <h3>User Agent</h3>
-          <p>{sBrowser}</p>
+          <p>{Usragent}</p>
         </div>
       </div>
 </div>
