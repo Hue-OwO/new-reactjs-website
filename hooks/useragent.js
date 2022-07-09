@@ -29,5 +29,5 @@ if (sUsrAg.indexOf("Firefox") > -1) {
 } else {
   sBrowser = "unknown";
 }
-return {sBrowser, sUsrAg}
+return {Usragent, sUsrAg}
 }
