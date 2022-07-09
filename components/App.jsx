@@ -5,8 +5,6 @@ export default function App() {
   
   const {sBrowser} = usragent()
 
-
-
   const mainStyle = {
     height: '100%',
     border:'solid 2px #232431',
@@ -22,7 +20,6 @@ export default function App() {
     height: "100%",
     'box-shadow': 'var(--soft-shadow)'
   }
-  
       return (
   <>
   {/* MAIN CONTENT */}
