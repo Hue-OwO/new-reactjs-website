@@ -2,8 +2,6 @@
 export default function usragnt() {
 var sBrowser, sUsrAg = navigator.userAgent;
 
-// The order matters here, and this may report false positives for unlisted browsers.
-
 if (sUsrAg.indexOf("Firefox") > -1) {
   sBrowser = "Mozilla Firefox";
   sBrowser = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0"
